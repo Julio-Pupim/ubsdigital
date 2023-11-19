@@ -8,5 +8,6 @@ create table usuario (
     email VARCHAR(255),
     cpf VARCHAR(20),
     bairro VARCHAR(255),
-    cartaoSus VARCHAR(255)
+    cartaoSus VARCHAR(255),
+    senha VARCHAR(255)
 );

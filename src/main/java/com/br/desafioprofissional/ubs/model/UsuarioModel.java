@@ -21,19 +21,25 @@ public class UsuarioModel implements Serializable{
 	@Column(name="idkey")
 	private Long id;
 	
+	@Column(name="nome")
 	private String nome;
-	
+
+	@Column(name="sobrenome")
 	private String sobrenome;
 
+	@Column(name="email")
 	private String email;
 	
+	@Column(name="cpf")
 	private String cpf;
 	
+	@Column(name="bairro")
 	private String bairro;
 	
 	@Column(name="cartaosus")
 	private String cartaoSus;
 	
+	@Column(name="senha")
 	private String senha;
 
 	public Long getId() {
